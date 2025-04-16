@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 import os
 
-data_path = r'C:\Users\Jash\OneDrive\Desktop\Internship-Assignment\data'
+data_path = r'C:\Users\Jash\OneDrive\Documents\GitHub\Research-Internship-Assignment\data'
 data = pd.read_csv(os.path.join(data_path, 'final.csv'))
 
-image_path = r'C:\Users\Jash\OneDrive\Desktop\Internship-Assignment\images'
+image_path = r'C:\Users\Jash\OneDrive\Documents\GitHub\Research-Internship-Assignment\images'
 img_list = ['one.png', 'two.png', 'three.png', 'four.png', 'five.png', 'six.png', 'seven.png', 'eight.png', 'nine.png', 'ten.png']
 
 caption_list = [
