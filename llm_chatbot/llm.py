@@ -59,4 +59,4 @@ def response(question):
 
     print(result)
 
-response("tell me the views on abortion")
+response("tell me the views on donald trump")
